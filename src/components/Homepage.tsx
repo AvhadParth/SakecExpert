@@ -109,7 +109,7 @@ export const Homepage = () => {
             </p>
             
             {/* Typing Animation */}
-            <div className="mb-8 animate-fade-in-up" style={{ animationDelay: '1.4s' }}>
+            <div className="mb-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
               <p className="text-lg text-muted-foreground">
                 <TypingAnimation />
               </p>
@@ -145,8 +145,8 @@ export const Homepage = () => {
             {[
               { icon: FileText, label: "Projects Submitted", value: 1247, suffix: "+" },
               { icon: Users, label: "Active Students", value: 356, suffix: "" },
-              { icon: TrendingUp, label: "Universities", value: 45, suffix: "+" },
-              { icon: Star, label: "Success Rate", value: 94, suffix: "%" }
+              { icon: TrendingUp, label: "Topics Submitted", value: 45, suffix: "+" },
+              { icon: Star, label: "Usability Rate", value: 94, suffix: "%" }
             ].map((stat, index) => (
               <Card key={index} className="text-center group hover:shadow-elevated transition-all duration-300 animate-scale-in bg-card/80 backdrop-blur-sm border-border/50" style={{ animationDelay: `${index * 0.1}s` }}>
                 <CardContent className="p-6">
