@@ -109,7 +109,7 @@ export const Homepage = () => {
             </p>
             
             {/* Typing Animation */}
-            <div className="mb-8 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+            <div className="mb-8 animate-fade-in-up" style={{ animationDelay: '1.4s' }}>
               <p className="text-lg text-muted-foreground">
                 <TypingAnimation />
               </p>
