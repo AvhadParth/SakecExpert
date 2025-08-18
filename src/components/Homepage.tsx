@@ -127,7 +127,7 @@ export const Homepage = () => {
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="group border-2 border-gold text-gold hover:bg-gold hover:text-gold-foreground transition-all duration-300 hover:shadow-soft animate-pulse-glow"
+                  className="group border-2 border-gold text-gold hover:bg-gold hover:text-white-foreground transition-all duration-300 hover:shadow-soft animate-pulse-glow"
                 >
                   <Upload className="w-5 h-5 mr-2 group-hover:-translate-y-1 transition-transform" />
                   Submit Your Project
