@@ -230,9 +230,9 @@ export const Homepage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {[
-              { title: "AI-Powered Learning Assistant", category: "Artificial Intelligence", author: "Sarah Johnson" },
-              { title: "Sustainable Smart City Platform", category: "Web Development", author: "Mike Chen" },
-              { title: "Blockchain Voting System", category: "Cybersecurity", author: "Alex Rivera" }
+              { title: "AI-Powered Learning Assistant", category: "Artificial Intelligence", author: "Parth Avhad" },
+              { title: "Sustainable Smart City Platform", category: "Web Development", author: "Rutuja Andhale" },
+              { title: "Blockchain Voting System", category: "Cybersecurity", author: "Anuj Avhad" }
             ].map((project, index) => (
               <Card key={index} className="group hover:shadow-elevated transition-all duration-300 cursor-pointer animate-scale-in border-border/50 bg-card/80 backdrop-blur-sm" style={{ animationDelay: `${index * 0.1}s` }}>
                 <CardContent className="p-6">
