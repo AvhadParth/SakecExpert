@@ -6,7 +6,7 @@ import { Search, BookOpen, Upload, Users, TrendingUp, Star, Github, FileText } f
 import { Link } from "react-router-dom";
 
 // Animated counter component
-const AnimatedCounter = ({ end, duration = 20000, suffix = "" }: { end: number; duration?: number; suffix?: string }) => {
+const AnimatedCounter = ({ end, duration = 2000, suffix = "" }: { end: number; duration?: number; suffix?: string }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
